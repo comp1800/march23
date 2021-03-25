@@ -15,3 +15,7 @@ var firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+// Get a reference to database
+const db = firebase.firestore();
+// Get a reference to the storage service, which is used to create references in your storage bucket
+// const storage = firebase.storage();
